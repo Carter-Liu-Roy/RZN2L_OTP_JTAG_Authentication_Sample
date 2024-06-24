@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.1\common\bin\cspybat" -f "C:\Users\a5134085\RASmartConfigurator\OTP_N2L_ID_JTAG_example\settings\OTP_N2L_ID_JTAG_example.Debug.general.xcl" --backend -f "C:\Users\a5134085\RASmartConfigurator\OTP_N2L_ID_JTAG_example\settings\OTP_N2L_ID_JTAG_example.Debug.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.1\common\bin\cspybat" -f "C:\Users\a5134085\RASmartConfigurator\git\RZN2L_OTP_JTAG_Authentication_Sample\settings\OTP_N2L_ID_JTAG_example.Debug.general.xcl" --backend -f "C:\Users\a5134085\RASmartConfigurator\git\RZN2L_OTP_JTAG_Authentication_Sample\settings\OTP_N2L_ID_JTAG_example.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.1\common\bin\cspybat" -f "C:\Users\a5134085\RASmartConfigurator\OTP_N2L_ID_JTAG_example\settings\OTP_N2L_ID_JTAG_example.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\a5134085\RASmartConfigurator\OTP_N2L_ID_JTAG_example\settings\OTP_N2L_ID_JTAG_example.Debug.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.1\common\bin\cspybat" -f "C:\Users\a5134085\RASmartConfigurator\git\RZN2L_OTP_JTAG_Authentication_Sample\settings\OTP_N2L_ID_JTAG_example.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\a5134085\RASmartConfigurator\git\RZN2L_OTP_JTAG_Authentication_Sample\settings\OTP_N2L_ID_JTAG_example.Debug.driver.xcl" 
 }
