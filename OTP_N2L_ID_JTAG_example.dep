@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>5</fileVersion>
+    <fileChecksum>681680278</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\buildinfo.ipcf</file>
+            <file>$PROJ_DIR$\rzn_gen\main.c</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_irq.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_tfu.h</file>
+            <file>$PROJ_DIR$\rzn_gen\vector_data.h</file>
+            <file>$PROJ_DIR$\src\hal_entry.c</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_reset.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_clocks.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_compiler_support.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_io.c</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_common.c</file>
+            <file>$PROJ_DIR$\rzn_gen\hal_data.c</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_register_protection.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_clocks.c</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_module_stop.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_irq.c</file>
+            <file>$PROJ_DIR$\rzn_gen\bsp_clock_cfg.h</file>
+            <file>$PROJ_DIR$\rzn_gen\common_data.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\rzn2l\bsp_cache.h</file>
+            <file>$PROJ_DIR$\rzn_gen\common_data.c</file>
+            <file>$PROJ_DIR$\rzn_gen\hal_data.h</file>
+            <file>$PROJ_DIR$\rzn_gen\pin_data.c</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_reset.c</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_sbrk.c</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\rzn2l\bsp_cache.c</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_common.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\rzn2l\bsp_elc.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\rzn2l\bsp_feature.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_mcu_api.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\rzn2l\bsp_mcu_info.h</file>
+            <file>$PROJ_DIR$\rzn_gen\vector_data.c</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_delay.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\rzn2l\bsp_loader_param.c</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\r_ioport\r_ioport.c</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_io.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_delay.c</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_register_protection.c</file>
+            <file>$PROJ_DIR$\rzn_cfg\fsp_cfg\r_ioport_cfg.h</file>
+            <file>$PROJ_DIR$\rzn\arm\CMSIS_5\CMSIS\Core_R\Include\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\rzn\board\rzn2l_rsk\board_leds.c</file>
+            <file>$PROJ_DIR$\rzn_cfg\fsp_cfg\bsp\bsp_mcu_family_cfg.h</file>
+            <file>$PROJ_DIR$\rzn\board\rzn2l_rsk\board_init.c</file>
+            <file>$PROJ_DIR$\rzn\arm\CMSIS_5\CMSIS\Core_R\Include\cmsis_cp15.h</file>
+            <file>$PROJ_DIR$\rzn\board\rzn2l_rsk\board_leds.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\inc\api\bsp_api.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\cmsis\Device\RENESAS\Include\renesas.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\cmsis\Device\RENESAS\Include\system.h</file>
+            <file>$PROJ_DIR$\rzn\arm\CMSIS_5\CMSIS\Core_R\Include\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\cmsis\Device\RENESAS\Source\startup.c</file>
+            <file>$PROJ_DIR$\rzn\board\rzn2l_rsk\board_ethernet_phy.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\inc\fsp_version.h</file>
+            <file>$PROJ_DIR$\rzn_cfg\fsp_cfg\bsp\bsp_mcu_device_pn_cfg.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\cmsis\Device\RENESAS\Source\system.c</file>
+            <file>$PROJ_DIR$\rzn_cfg\fsp_cfg\bsp\board_cfg.h</file>
+            <file>$PROJ_DIR$\rzn\arm\CMSIS_5\CMSIS\Core_R\Include\cmsis_version.h</file>
+            <file>$PROJ_DIR$\rzn\board\rzn2l_rsk\board.h</file>
+            <file>$PROJ_DIR$\rzn_cfg\fsp_cfg\bsp\bsp_cfg.h</file>
+            <file>$PROJ_DIR$\rzn_cfg\fsp_cfg\bsp\bsp_pin_cfg.h</file>
+            <file>$PROJ_DIR$\rzn_cfg\fsp_cfg\bsp\bsp_mcu_device_cfg.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\inc\api\r_ioport_api.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\inc\fsp_features.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\inc\fsp_common_api.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\cmsis\Device\RENESAS\Include\R9A07G084.h</file>
+            <file>$PROJ_DIR$\rzn\arm\CMSIS_5\CMSIS\Core_R\Include\core_cr52.h</file>
+            <file>$PROJ_DIR$\rzn\board\rzn2l_rsk\board_init.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\inc\instances\r_ioport.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\r_sci_uart\r_sci_uart.c</file>
+            <file>$PROJ_DIR$\rzn_cfg\fsp_cfg\r_sci_uart_cfg.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\inc\instances\r_sci_uart.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\inc\api\r_uart_api.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\inc\api\r_transfer_api.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Flex Software\Components\bsp_io.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Flex Software\Components\board_leds.o</file>
+            <file>$PROJ_DIR$\src\OTP_Example\cmd_otp_auth.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\Flex Software\Components\bsp_irq.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Flex Software\Components\bsp_loader_param.o</file>
+            <file>$PROJ_DIR$\src\OTP_Example\cmd_otp.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\Flex Software\Generated Data\common_data.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Flex Software\Generated Data\hal_data.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Flex Software\Generated Data\pin_data.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Flex Software\Generated Data\main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Flex Software\Generated Data\vector_data.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Flex Software\Program Entry\hal_entry.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\OTP_N2L_ID_JTAG_example.out</file>
+            <file>$PROJ_DIR$\src\OTP_Example\otp.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\OTP_Example\cmd_otp_auth.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Flex Software\Components\bsp_reset.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Flex Software\Components\bsp_common.o</file>
+            <file>$PROJ_DIR$\src\OTP_Example\cmd_otp.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Flex Software\Components\bsp_register_protection.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Flex Software\Components\bsp_clocks.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Flex Software\Components\bsp_sbrk.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Flex Software\Components\r_ioport.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Flex Software\Components\startup.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Flex Software\Components\system.o</file>
+            <file>$PROJ_DIR$\src\OTP_Example\cmd_otp_auth.h</file>
+            <file>$PROJ_DIR$\src\OTP_Example\common.h</file>
+            <file>$PROJ_DIR$\src\OTP_Example\otp.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Flex Software\Components\bsp_cache.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\OTP_Example\cmd_otp.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Flex Software\Components\bsp_delay.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\OTP_Example\otp.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Flex Software\Components\board_init.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\iccarm_builtin.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\intrinsics.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl7Sx_tln.a</file>
+            <file>$PROJ_DIR$\memory_regions.icf</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\Debug\List\OTP_N2L_ID_JTAG_example.map</file>
+            <file>$TOOLKIT_DIR$\lib\sh7Sxs_l.a</file>
+            <file>$TOOLKIT_DIR$\lib\m7Sx_tlv.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7Sx_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\iar_intrinsics_common.h</file>
+            <file>$PROJ_DIR$\script\fsp_ram_execution.icf</file>
+            <file>$PROJ_DIR$\Debug\Obj\Flex Software\Components\r_sci_uart.o</file>
+            <file>$PROJ_DIR$\src\OTP_Example\device_setup.h</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 85 120</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\rzn_gen\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 81</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 20 119 71 84 89 87 109 44 61 106 50 56 16 40 51 58 29 26 27 18 53 55 64 43 49 4 45 47 38 110 42 62 63 54 113 125 46 25 114 112 111 108 123 8 12 2 34 7 14 6 60 31 28 3 116 115 17 65 59 37 57 68 69 70 67</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\hal_entry.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 83</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 20 119 71 84 89 87 109 44 61 106 50 56 16 40 51 58 29 26 27 18 53 55 64 43 49 4 45 47 38 110 42 62 63 54 113 125 46 25 114 112 111 108 123 8 12 2 34 7 14 6 60 31 28 3 116 115 17 65 59 37 57 68 69 70 67 92 99 100 128</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_io.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 72</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44 61 106 71 84 89 87 109 119 50 56 16 40 51 58 29 26 27 18 53 55 64 43 49 4 45 47 38 110 42 62 63 54 113 125 46 25 114 112 111 108 123 8 12 2 34 7 14 6 60 31 28 3 116 115</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 91</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44 61 106 71 84 89 87 109 119 50 56 16 40 51 58 29 26 27 18 53 55 64 43 49 4 45 47 38 110 42 62 63 54 113 125 46 25 114 112 111 108 123 8 12 2 34 7 14 6 60 31 28 3 116 115</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\rzn_gen\hal_data.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 79</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 20 119 71 84 89 87 109 44 61 106 50 56 16 40 51 58 29 26 27 18 53 55 64 43 49 4 45 47 38 110 42 62 63 54 113 125 46 25 114 112 111 108 123 8 12 2 34 7 14 6 60 31 28 3 116 115 17 65 59 37 57 68 69 70 67</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_clocks.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 94</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 7 16 44 61 106 71 84 89 87 109 119 50 56 40 51 58 29 26 27 18 53 55 64 43 49 4 45 47 38 110 42 62 63 54 113 125 46 25 114 112 111 108 123 8 12 2 34 14 6 60 31 28 3 116 115</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_irq.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 75</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44 61 106 71 84 89 87 109 119 50 56 16 40 51 58 29 26 27 18 53 55 64 43 49 4 45 47 38 110 42 62 63 54 113 125 46 25 114 112 111 108 123 8 12 2 34 7 14 6 60 31 28 3 116 115</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\rzn_gen\common_data.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 78</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 17 119 71 84 89 87 109 44 61 106 50 56 16 40 51 58 29 26 27 18 53 55 64 43 49 4 45 47 38 110 42 62 63 54 113 125 46 25 114 112 111 108 123 8 12 2 34 7 14 6 60 31 28 3 116 115 65 59 37 57</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\rzn_gen\pin_data.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 80</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44 61 106 71 84 89 87 109 119 50 56 16 40 51 58 29 26 27 18 53 55 64 43 49 4 45 47 38 110 42 62 63 54 113 125 46 25 114 112 111 108 123 8 12 2 34 7 14 6 60 31 28 3 116 115 59 65 37</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_reset.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44 61 106 71 84 89 87 109 119 50 56 16 40 51 58 29 26 27 18 53 55 64 43 49 4 45 47 38 110 42 62 63 54 113 125 46 25 114 112 111 108 123 8 12 2 34 7 14 6 60 31 28 3 116 115</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_sbrk.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 95</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\rzn2l\bsp_cache.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 102</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44 61 106 71 84 89 87 109 119 50 56 16 40 51 58 29 26 27 18 53 55 64 43 49 4 45 47 38 110 42 62 63 54 113 125 46 25 114 112 111 108 123 8 12 2 34 7 14 6 60 31 28 3 116 115</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\rzn_gen\vector_data.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 82</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44 61 106 71 84 89 87 109 119 50 56 16 40 51 58 29 26 27 18 53 55 64 43 49 4 45 47 38 110 42 62 63 54 113 125 46 25 114 112 111 108 123 8 12 2 34 7 14 6 60 31 28 3 116 115</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\rzn2l\bsp_loader_param.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 76</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44 61 106 71 84 89 87 109 119 50 56 16 40 51 58 29 26 27 18 53 55 64 43 49 4 45 47 38 110 42 62 63 54 113 125 46 25 114 112 111 108 123 8 12 2 34 7 14 6 60 31 28 3 116 115</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\rzn\fsp\src\r_ioport\r_ioport.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 96</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 119 71 84 89 87 109 44 61 106 50 56 16 40 51 58 29 26 27 18 53 55 64 43 49 4 45 47 38 110 42 62 63 54 113 125 46 25 114 112 111 108 123 8 12 2 34 7 14 6 60 31 28 3 116 115 65 59 37</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_delay.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 104</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44 61 106 71 84 89 87 109 119 50 56 16 40 51 58 29 26 27 18 53 55 64 43 49 4 45 47 38 110 42 62 63 54 113 125 46 25 114 112 111 108 123 8 12 2 34 7 14 6 60 31 28 3 116 115</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_register_protection.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 93</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44 61 106 71 84 89 87 109 119 50 56 16 40 51 58 29 26 27 18 53 55 64 43 49 4 45 47 38 110 42 62 63 54 113 125 46 25 114 112 111 108 123 8 12 2 34 7 14 6 60 31 28 3 116 115</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\rzn\board\rzn2l_rsk\board_leds.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 73</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44 61 106 71 84 89 87 109 119 50 56 16 40 51 58 29 26 27 18 53 55 64 43 49 4 45 47 38 110 42 62 63 54 113 125 46 25 114 112 111 108 123 8 12 2 34 7 14 6 60 31 28 3 116 115</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\rzn\board\rzn2l_rsk\board_init.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 107</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44 61 106 71 84 89 87 109 119 50 56 16 40 51 58 29 26 27 18 53 55 64 43 49 4 45 47 38 110 42 62 63 54 113 125 46 25 114 112 111 108 123 8 12 2 34 7 14 6 60 31 28 3 116 115</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\rzn\fsp\src\bsp\cmsis\Device\RENESAS\Source\startup.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 97</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44 61 106 71 84 89 87 109 119 50 56 16 40 51 58 29 26 27 18 53 55 64 43 49 4 45 47 38 110 42 62 63 54 113 125 46 25 114 112 111 108 123 8 12 2 34 7 14 6 60 31 28 3 116 115</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\rzn\fsp\src\bsp\cmsis\Device\RENESAS\Source\system.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 98</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 108 71 84 89 87 109 112 123 44 61 106 119 50 56 16 40 51 58 29 26 27 18 53 55 64 43 49 4 45 47 38 110 42 62 63 54 113 125 46 25 114 111 8 12 2 34 7 14 6 60 31 28 3 116 115</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\rzn\fsp\src\r_sci_uart\r_sci_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 127</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44 61 106 71 84 89 87 109 119 50 56 16 40 51 58 29 26 27 18 53 55 64 43 49 4 45 47 38 110 42 62 63 54 113 125 46 25 114 112 111 108 123 8 12 2 34 7 14 6 60 31 28 3 116 115 68 69 70 67</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\OTP_Example\cmd_otp_auth.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 88</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 20 119 71 84 89 87 109 44 61 106 50 56 16 40 51 58 29 26 27 18 53 55 64 43 49 4 45 47 38 110 42 62 63 54 113 125 46 25 114 112 111 108 123 8 12 2 34 7 14 6 60 31 28 3 116 115 17 65 59 37 57 68 69 70 67 99 101 100</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\OTP_Example\cmd_otp.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 103</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 20 119 71 84 89 87 109 44 61 106 50 56 16 40 51 58 29 26 27 18 53 55 64 43 49 4 45 47 38 110 42 62 63 54 113 125 46 25 114 112 111 108 123 8 12 2 34 7 14 6 60 31 28 3 116 115 17 65 59 37 57 68 69 70 67 92 101 100</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\OTP_N2L_ID_JTAG_example.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 120</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 126 118 107 73 102 94 91 104 72 75 76 93 90 95 103 88 78 79 83 81 105 80 96 127 97 98 82 121 124 122 117</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\OTP_Example\otp.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 105</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 20 119 71 84 89 87 109 44 61 106 50 56 16 40 51 58 29 26 27 18 53 55 64 43 49 4 45 47 38 110 42 62 63 54 113 125 46 25 114 112 111 108 123 8 12 2 34 7 14 6 60 31 28 3 116 115 17 65 59 37 57 68 69 70 67 101</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs>
+            <file>$PROJ_DIR$\buildinfo.ipcf</file>
+            <file>$PROJ_DIR$\rzn_gen\main.c</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_irq.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_tfu.h</file>
+            <file>$PROJ_DIR$\rzn_gen\vector_data.h</file>
+            <file>$PROJ_DIR$\src\hal_entry.c</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_reset.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_clocks.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_compiler_support.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_io.c</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_common.c</file>
+            <file>$PROJ_DIR$\rzn_gen\hal_data.c</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_register_protection.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_clocks.c</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_module_stop.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_irq.c</file>
+            <file>$PROJ_DIR$\rzn_gen\bsp_clock_cfg.h</file>
+            <file>$PROJ_DIR$\rzn_gen\common_data.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\rzn2l\bsp_cache.h</file>
+            <file>$PROJ_DIR$\rzn_gen\common_data.c</file>
+            <file>$PROJ_DIR$\rzn_gen\hal_data.h</file>
+            <file>$PROJ_DIR$\rzn_gen\pin_data.c</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_reset.c</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_sbrk.c</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\rzn2l\bsp_cache.c</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_common.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\rzn2l\bsp_elc.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\rzn2l\bsp_feature.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_mcu_api.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\rzn2l\bsp_mcu_info.h</file>
+            <file>$PROJ_DIR$\rzn_gen\vector_data.c</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_delay.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\rzn2l\bsp_loader_param.c</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\r_ioport\r_ioport.c</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_io.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_delay.c</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_register_protection.c</file>
+            <file>$PROJ_DIR$\rzn_cfg\fsp_cfg\r_ioport_cfg.h</file>
+            <file>$PROJ_DIR$\rzn\arm\CMSIS_5\CMSIS\Core_R\Include\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\rzn\board\rzn2l_rsk\board_leds.c</file>
+            <file>$PROJ_DIR$\rzn_cfg\fsp_cfg\bsp\bsp_mcu_family_cfg.h</file>
+            <file>$PROJ_DIR$\rzn\board\rzn2l_rsk\board_init.c</file>
+            <file>$PROJ_DIR$\rzn\arm\CMSIS_5\CMSIS\Core_R\Include\cmsis_cp15.h</file>
+            <file>$PROJ_DIR$\rzn\board\rzn2l_rsk\board_leds.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\inc\api\bsp_api.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\cmsis\Device\RENESAS\Include\renesas.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\cmsis\Device\RENESAS\Include\system.h</file>
+            <file>$PROJ_DIR$\rzn\arm\CMSIS_5\CMSIS\Core_R\Include\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\cmsis\Device\RENESAS\Source\startup.c</file>
+            <file>$PROJ_DIR$\rzn\board\rzn2l_rsk\board_ethernet_phy.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\inc\fsp_version.h</file>
+            <file>$PROJ_DIR$\rzn_cfg\fsp_cfg\bsp\bsp_mcu_device_pn_cfg.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\cmsis\Device\RENESAS\Source\system.c</file>
+            <file>$PROJ_DIR$\rzn_cfg\fsp_cfg\bsp\board_cfg.h</file>
+            <file>$PROJ_DIR$\rzn\arm\CMSIS_5\CMSIS\Core_R\Include\cmsis_gcc.h</file>
+            <file>$PROJ_DIR$\rzn\arm\CMSIS_5\CMSIS\Core_R\Include\cmsis_version.h</file>
+            <file>$PROJ_DIR$\rzn\board\rzn2l_rsk\board.h</file>
+            <file>$PROJ_DIR$\rzn_cfg\fsp_cfg\bsp\bsp_cfg.h</file>
+            <file>$PROJ_DIR$\rzn_cfg\fsp_cfg\bsp\bsp_pin_cfg.h</file>
+            <file>$PROJ_DIR$\rzn_cfg\fsp_cfg\bsp\bsp_mcu_device_cfg.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\inc\api\r_ioport_api.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\inc\fsp_features.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\inc\fsp_common_api.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\cmsis\Device\RENESAS\Include\R9A07G084.h</file>
+            <file>$PROJ_DIR$\rzn\arm\CMSIS_5\CMSIS\Core_R\Include\core_cr52.h</file>
+            <file>$PROJ_DIR$\rzn\arm\CMSIS_5\LICENSE.txt</file>
+            <file>$PROJ_DIR$\rzn\board\rzn2l_rsk\board_init.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\inc\instances\r_ioport.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\bsp\cmsis\Device\RENESAS\SVD\RA.svd</file>
+            <file>$PROJ_DIR$\rzn\fsp\src\r_sci_uart\r_sci_uart.c</file>
+            <file>$PROJ_DIR$\rzn_cfg\fsp_cfg\r_sci_uart_cfg.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\inc\instances\r_sci_uart.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\inc\api\r_uart_api.h</file>
+            <file>$PROJ_DIR$\rzn\fsp\inc\api\r_transfer_api.h</file>
+            <file>$PROJ_DIR$\src\OTP_Example\cmd_otp_auth.c</file>
+            <file>$PROJ_DIR$\src\OTP_Example\cmd_otp.c</file>
+            <file>$PROJ_DIR$\src\OTP_Example\otp.c</file>
+            <file>$PROJ_DIR$\src\OTP_Example\cmd_otp.h</file>
+            <file>$PROJ_DIR$\src\OTP_Example\cmd_otp_auth.h</file>
+            <file>$PROJ_DIR$\src\OTP_Example\common.h</file>
+            <file>$PROJ_DIR$\src\OTP_Example\otp.h</file>
+            <file>$PROJ_DIR$\src\OTP_Example\device_setup.h</file>
+        </outputs>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\rzn_gen\main.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\src\hal_entry.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_io.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_common.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\rzn_gen\hal_data.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_clocks.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_irq.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\rzn_gen\common_data.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\rzn_gen\pin_data.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_reset.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_sbrk.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\rzn2l\bsp_cache.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\rzn_gen\vector_data.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\rzn2l\bsp_loader_param.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\rzn\fsp\src\r_ioport\r_ioport.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_delay.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\rzn\fsp\src\bsp\mcu\all\bsp_register_protection.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\rzn\board\rzn2l_rsk\board_leds.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\rzn\board\rzn2l_rsk\board_init.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\rzn\fsp\src\bsp\cmsis\Device\RENESAS\Source\startup.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\rzn\fsp\src\bsp\cmsis\Device\RENESAS\Source\system.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
